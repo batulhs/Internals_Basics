@@ -23,7 +23,7 @@ The goal is to help optimize **operating room scheduling** by estimating how lon
 | patient_age            | Age of patient (5-80)                  |
 | is_surgical            | Whether procedure is surgical (0 or 1) |
 | audiogram_score        | Hearing test score (10-100)            |
-| procedure_duration_min | Target — procedure duration (minutes)  |
+| procedure_duration_min | Target - procedure duration (minutes)  |
 
 ---
 
