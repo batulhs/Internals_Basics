@@ -1,10 +1,10 @@
 # MLOps Lab CIE - ENTFlow Procedure Duration Predictor
 
-- Course: MLOps (24AM6AEMLO)
-- College: BMS College of Engineering
-- Semester: VI - 2026 Even
-- Name: Batul H Suratwala
-- USN: 1BM23AI041
+ Course: MLOps (24AM6AEMLO)
+ College: BMS College of Engineering
+ Semester: VI - 2026 Even
+ Name: Batul H Suratwala
+ USN: 1BM23AI041
 
 ---
 
