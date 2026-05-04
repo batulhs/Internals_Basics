@@ -1,0 +1,13 @@
+{
+    "search_type": "random",
+    "n_folds": 5,
+    "total_trials": 10,
+    "best_params": {
+        "n_estimators": 300,
+        "min_samples_split": 2,
+        "max_depth": 7
+    },
+    "best_mae": 4.534110000000001,
+    "best_cv_mae": 15.5353901388889,
+    "parent_run_name": "tuning-entflow"
+}
