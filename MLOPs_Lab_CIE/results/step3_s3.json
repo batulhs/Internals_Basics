@@ -1,0 +1,12 @@
+{
+    "image_name": "entflow-predictor",
+    "image_tag": "v1",
+    "base_image": "python:3.11-slim",
+    "test_input": {
+        "condition_severity": 2.0,
+        "patient_age": 36.0,
+        "is_surgical": 0.0,
+        "audiogram_score": 42.6
+    },
+    "prediction": 43.578199999999995
+}
