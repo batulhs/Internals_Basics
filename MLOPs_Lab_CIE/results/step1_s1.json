@@ -1,0 +1,20 @@
+{
+    "experiment_name": "entflow-procedure-duration-min",
+    "models": [
+        {
+            "name": "SVR",
+            "mae": 26.80852302046484,
+            "rmse": 35.2500064943039,
+            "r2": -0.12694513104310845
+        },
+        {
+            "name": "RandomForest",
+            "mae": 4.079779999999998,
+            "rmse": 4.570123444941063,
+            "r2": 0.9810573719801505
+        }
+    ],
+    "best_model": "RandomForest",
+    "best_metric_name": "mae",
+    "best_metric_value": 4.079779999999998
+}
