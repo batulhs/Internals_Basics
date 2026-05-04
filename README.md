@@ -1,33 +1,35 @@
-# MLOps Lab CIE — ENTFlow Procedure Duration Predictor
+# MLOps Lab CIE - ENTFlow Procedure Duration Predictor
 
 **Course:** MLOps (24AM6AEMLO)
 **College:** BMS College of Engineering
-**Semester:** VI — 2026 Even
+**Semester:** VI - 2026 Even
+**Name:** Batul H Suratwala
+**USN:** 1BM23AI041
 
 ---
 
-# 📌 Project Overview
+# Project Overview
 
 This project predicts **procedure duration (in minutes)** for ENTFlow, an ENT clinic chain.
 The goal is to help optimize **operating room scheduling** by estimating how long procedures will take based on patient and clinical features.
 
 ---
 
-# 📊 Dataset
+# Dataset
 
 | Feature                | Description                            |
 | ---------------------- | -------------------------------------- |
-| condition_severity     | Severity level (1–5)                   |
-| patient_age            | Age of patient (5–80)                  |
+| condition_severity     | Severity level (1-5)                   |
+| patient_age            | Age of patient (5-80)                  |
 | is_surgical            | Whether procedure is surgical (0 or 1) |
-| audiogram_score        | Hearing test score (10–100)            |
+| audiogram_score        | Hearing test score (10-100)            |
 | procedure_duration_min | Target — procedure duration (minutes)  |
 
 ---
 
-# ⚙️ Tasks
+# Tasks
 
-## 🔹 Task 1 — Experiment Tracking & Model Comparison
+## 🔹 Task 1 - Experiment Tracking & Model Comparison
 
 * Trained **SVR** and **RandomForest** models
 * Logged:
@@ -41,7 +43,7 @@ The goal is to help optimize **operating room scheduling** by estimating how lon
 
 ---
 
-## 🔹 Task 2 — Hyperparameter Tuning
+## 🔹 Task 2 - Hyperparameter Tuning
 
 * Performed **Randomized Search** on RandomForest
 * Parameter grid:
@@ -57,7 +59,7 @@ The goal is to help optimize **operating room scheduling** by estimating how lon
 
 ---
 
-## 🔹 Task 3 — Docker Packaging
+## 🔹 Task 3 - Docker Packaging
 
 * Built CLI-based prediction tool using `argparse`
 * Containerized using Docker
@@ -68,7 +70,7 @@ The goal is to help optimize **operating room scheduling** by estimating how lon
 
 ---
 
-## 🔹 Task 4 — Retraining Pipeline
+## 🔹 Task 4 - Retraining Pipeline
 
 * Combined:
 
@@ -89,7 +91,7 @@ The goal is to help optimize **operating room scheduling** by estimating how lon
 
 ---
 
-# 📈 Results
+# Results
 
 | Task   | Output File           |
 | ------ | --------------------- |
@@ -100,7 +102,7 @@ The goal is to help optimize **operating room scheduling** by estimating how lon
 
 ---
 
-# 🚀 How to Run
+# How to Run
 
 ```bash
 cd MLOPs_Lab_CIE
@@ -121,7 +123,7 @@ python src/retrain.py
 
 ---
 
-# 🧰 Tech Stack
+# Tech Stack
 
 * Python 3.x
 * scikit-learn
@@ -132,7 +134,7 @@ python src/retrain.py
 
 ---
 
-# ✅ Key Features
+# Key Features
 
 * End-to-end MLOps pipeline
 * Experiment tracking with MLflow
